@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context="PhoneOtpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Phone Number"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="18dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        />
+
+    <EditText
+        android:id="@+id/phoneNoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="16"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter OTP"
+        android:layout_marginTop="65dp"
+        android:layout_marginStart="18dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        />
+
+    <EditText
+        android:id="@+id/otpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="16"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18sp"
+        android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:id="@+id/checkOTPButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="10dp"
+            android:text="Check OTP"
+            android:textSize="14sp"
+            />
+
+        <Button
+            android:id="@+id/sendOTPButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Send OTP"
+            android:textSize="14sp"
+            />
+
+        <Button
+            android:id="@+id/resendOTPButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Resend OTP"
+            android:textSize="14sp"
+            />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBarSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

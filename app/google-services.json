@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "666464501269",
+    "project_id": "assignmentproject-e2dab",
+    "storage_bucket": "assignmentproject-e2dab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666464501269:android:3c0486cd4cf5bff1f0981c",
+        "android_client_info": {
+          "package_name": "com.example.assignmentproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQHglIAT-5UVVaIDercHXxUBAbxHG-8Ro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
